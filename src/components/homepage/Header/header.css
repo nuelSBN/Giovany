@@ -1,0 +1,79 @@
+.header {
+  flex: 1;
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  background: var(--white);
+  border-bottom: 6px solid var(--first-color);
+  width: 100%;
+  z-index: 999;
+}
+.logo {
+  width: 5rem;
+  object-fit: contain;
+}
+.logoContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav-links {
+  color: inherit;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  /* height: 100%; */
+}
+.navbarsSection {
+  flex: 2;
+  display: flex;
+  font-size: 1.2rem;
+}
+.nav-menu {
+  display: flex;
+  /* width: 60%; */
+}
+.nav-item {
+  list-style: none;
+}
+.nav-menu .nav-links {
+  color: var(--second-color);
+  font-weight: 700;
+}
+.nav-menu .nav-links:hover {
+  color: var(--first-color);
+  transition: all 0.5s ease;
+}
+.icons {
+  display: none;
+}
+.telephone {
+  background: var(--first-color);
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  /* width: 20%; */
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  /* padding: 0 3rem; */
+  font-weight: 500;
+  flex: 1;
+  /* width: 20vw; */
+}
+.telephone:hover {
+  /* color: var(--white-two); */
+}
+.telephone .nav-links:hover {
+  font-weight: 700;
+  border-bottom: 2px solid var(--white);
+}
+.search {
+  display: none;
+}
