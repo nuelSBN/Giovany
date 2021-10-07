@@ -1,0 +1,43 @@
+.propertiesSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-top: 0.7rem;
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+}
+.propertiesSectionHeading {
+  width: 70%;
+}
+.propertiesSectionHeading span {
+  display: block;
+}
+.propertiesSectionText {
+  font-size: 1rem;
+  font-weight: 200;
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+}
+.propertiesSectionTextSubText {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+  .propertiesSectionHeading {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .propertiesSectionText {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 2rem;
+    text-transform: capitalize;
+  }
+}

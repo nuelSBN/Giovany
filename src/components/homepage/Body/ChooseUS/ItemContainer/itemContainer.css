@@ -1,0 +1,46 @@
+.itemContainer {
+  display: flex;
+  margin-top: 1.3rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  border: 1px solid var(--first-color);
+}
+.itemNumber {
+  height: 3rem;
+  width: 3rem;
+  background-color: var(--first-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--white);
+  font-weight: 600;
+}
+.itemObjectiveHead {
+  margin-top: 0.7rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+.itemObjectives {
+  font-size: 1rem;
+  margin-top: 0.7rem;
+  line-height: 2.2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .itemContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .items {
+    border: none;
+  }
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./bannerSection.css";
 
 function BannerSection() {
@@ -14,9 +15,9 @@ function BannerSection() {
           <span className="break"> a prefab modular home.</span>
         </p>
       </div>
-      <button>
+      <Link to="/properties" className="nav-links button">
         <span>BROWSE PROPERTIES NOW</span>
-      </button>
+      </Link>
     </div>
   );
 }

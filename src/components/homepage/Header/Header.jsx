@@ -8,7 +8,6 @@ function Header() {
   const handleClick = () => setclick(!click);
 
   const closeMobileMenu = () => setclick(false);
-  const openSearchBox = () => setclick(false);
   return (
     <div className="navbar">
       <div className="header">
@@ -22,7 +21,6 @@ function Header() {
           </Link>
         </div>
         <div className="icons">
-          {/* <i className="searchIcon fas fa-search" onClick={openSearchBox}></i> */}
           <i
             className={click ? "fas fa-times" : "fas fa-bars"}
             onClick={handleClick}
